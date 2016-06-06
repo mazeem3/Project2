@@ -1,0 +1,68 @@
+*{
+  background-color: black;
+}
+#piechart{
+width: 100%
+}
+
+h1{
+  color: red;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.ShipTable{
+  text-align: left;
+  border-style: groove;
+  border-color: #88FF6F;
+  display: inline-block;
+  border-collapse: collapse;
+}
+.title{
+  font-size: 30px;
+  font-weight: bolder;
+  font-variant: normal;
+  font-stretch: expanded;
+  color: #88FF6F;
+
+
+}
+.log table {
+  text-align: center;
+  border-style: solid;
+  border-color: #88FF6F;
+  display: inline-block;
+  border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #88FF6F;
+    color: #88FF6F;
+}
+.flexbox{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 10px;
+}
+.flexbox1{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: center;
+
+}
+th{
+  font-size: 20px;
+}
+.text{
+  text-align: right;
+}
+.flexbox1 > img{
+  align-content: flex-end;
+}
+.text{
+  color: #88FF6F;
+}

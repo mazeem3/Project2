@@ -1,0 +1,133 @@
+<html>
+
+<link rel="stylesheet" href="normalize.css">
+<link rel="stylesheet" href="master.css">
+
+
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Employee', 'Amount delivered'],
+          ['Fry',     35000],
+          ['Amy',      15000],
+          ['Bender',  355600],
+          ['Leela', 131295]
+        ]);
+
+        var options = {
+          title: 'Amount Delivered'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div class="title">Planet Express</div>
+    <h1>Total money we made this week: $536895 </h1>
+    <div class="flexbox">
+      <div class="ShipTable">
+        <table>
+          <th>Shipments</th>
+          
+          <tr>
+            <td>Hamburgers</td>
+          </tr>
+          
+          <tr>
+            <td>Tacos</td>
+          </tr>
+          
+          <tr>
+            <td>Movies</td>
+          </tr>
+          
+          <tr>
+            <td>BBQ Sauce</td>
+          </tr>
+          
+          <tr>
+            <td>Whiskey</td>
+          </tr>
+          
+          <tr>
+            <td>Books</td>
+          </tr>
+          
+          <tr>
+            <td>Beer</td>
+          </tr>
+          
+          <tr>
+            <td>Pizza</td>
+          </tr>
+          
+          <tr>
+            <td>Pizza</td>
+          </tr>
+          
+          <tr>
+            <td>Pizza</td>
+          </tr>
+          
+        </table>
+      </div>
+
+  <div class="Log">
+    <table>
+      <tr>
+      <th>
+        Employees
+      </th>
+      <th>
+        Number of trips
+      </th>
+      <th>
+        Bonus
+      </th>
+    </tr>
+    <tr>
+      <td>Fry</td>
+      <td>2</td>
+      <td>$3500.0</td>
+    </tr>
+    <tr>
+    <td>Amy</td>
+    <td>1</td>
+    <td>$1500.0</td>
+    </tr>
+    <tr>
+      <td>Bender</td>
+      <td>2</td>
+      <td>$35560.0</td>
+    </tr>
+    <tr>
+      <td>Leela</td>
+      <td>5</td>
+      <td>$13129.5</td>
+    </tr>
+
+    </table>
+
+  </div>
+</div>
+<div class="flexbox1">
+
+
+      <div id="piechart" style="width: 50%; height: 500px; background-color: black;"></div>
+      <div class="gif">
+
+        <img src="http://66.media.tumblr.com/tumblr_lssh0xZp751r0ovojo1_400.gif" alt="futuramagif" width="128" height="128">
+
+      </div>
+    </div>
+<div class="text">How i feel after finishing this project</div>
+    </body>
+  </html>
